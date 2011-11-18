@@ -1,0 +1,3 @@
+[submodule "KKGridView"]
+	path = KKGridView
+	url = git://github.com/kolinkrewinkel/KKGridView.git
