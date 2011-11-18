@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE4D8221476034F006016E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE4D8211476034F006016E3 /* Foundation.framework */; };
+		1AE4D82814760350006016E3 /* KKLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4D82714760350006016E3 /* KKLibrary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AE4D81E1476034F006016E3 /* libKKLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKKLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE4D8211476034F006016E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AE4D8251476034F006016E3 /* KKLibrary-Prefix.pch */ = {isa = PBXFileReference; path = "KKLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		1AE4D8261476034F006016E3 /* KKLibrary.h */ = {isa = PBXFileReference; path = KKLibrary.h; sourceTree = "<group>"; };
+		1AE4D82714760350006016E3 /* KKLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE4D81B1476034F006016E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE4D8221476034F006016E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE4D8131476034D006016E3 = {
+			isa = PBXGroup;
+			children = (
+				1AE4D8231476034F006016E3 /* KKLibrary */,
+				1AE4D8201476034F006016E3 /* Frameworks */,
+				1AE4D81F1476034F006016E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AE4D81F1476034F006016E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AE4D81E1476034F006016E3 /* libKKLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AE4D8201476034F006016E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AE4D8211476034F006016E3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AE4D8231476034F006016E3 /* KKLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				1AE4D8261476034F006016E3 /* KKLibrary.h */,
+				1AE4D82714760350006016E3 /* KKLibrary.m */,
+				1AE4D8241476034F006016E3 /* Supporting Files */,
+			);
+			path = KKLibrary;
+			sourceTree = "<group>";
+		};
+		1AE4D8241476034F006016E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE4D8251476034F006016E3 /* KKLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AE4D81C1476034F006016E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AE4D81D1476034F006016E3 /* KKLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE4D82B14760350006016E3 /* Build configuration list for PBXNativeTarget "KKLibrary" */;
+			buildPhases = (
+				1AE4D81A1476034F006016E3 /* Sources */,
+				1AE4D81B1476034F006016E3 /* Frameworks */,
+				1AE4D81C1476034F006016E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKLibrary;
+			productName = KKLibrary;
+			productReference = 1AE4D81E1476034F006016E3 /* libKKLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AE4D8151476034D006016E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Enkla;
+			};
+			buildConfigurationList = 1AE4D8181476034D006016E3 /* Build configuration list for PBXProject "KKLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AE4D8131476034D006016E3;
+			productRefGroup = 1AE4D81F1476034F006016E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AE4D81D1476034F006016E3 /* KKLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE4D81A1476034F006016E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE4D82814760350006016E3 /* KKLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AE4D82914760350006016E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AE4D82A14760350006016E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AE4D82C14760350006016E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KKLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKLibrary/KKLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1AE4D82D14760350006016E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KKLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKLibrary/KKLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE4D8181476034D006016E3 /* Build configuration list for PBXProject "KKLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE4D82914760350006016E3 /* Debug */,
+				1AE4D82A14760350006016E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE4D82B14760350006016E3 /* Build configuration list for PBXNativeTarget "KKLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE4D82C14760350006016E3 /* Debug */,
+				1AE4D82D14760350006016E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AE4D8151476034D006016E3 /* Project object */;
+}
