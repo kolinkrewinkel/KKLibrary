@@ -1,3 +1,9 @@
 [submodule "KKGridView"]
 	path = KKGridView
 	url = git://github.com/kolinkrewinkel/KKGridView.git
+[submodule "KKNetworking"]
+	path = KKNetworking
+	url = git://github.com/kolinkrewinkel/KKNetworking.git
+[submodule "KKCoreTextUtils"]
+	path = KKCoreTextUtils
+	url = git://github.com/kolinkrewinkel/KKCoreTextUtils.git
