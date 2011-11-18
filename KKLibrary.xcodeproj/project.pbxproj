@@ -14,8 +14,8 @@
 /* Begin PBXFileReference section */
 		1AE4D81E1476034F006016E3 /* libKKLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKKLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE4D8211476034F006016E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1AE4D8251476034F006016E3 /* KKLibrary-Prefix.pch */ = {isa = PBXFileReference; path = "KKLibrary-Prefix.pch"; sourceTree = "<group>"; };
-		1AE4D8261476034F006016E3 /* KKLibrary.h */ = {isa = PBXFileReference; path = KKLibrary.h; sourceTree = "<group>"; };
+		1AE4D8251476034F006016E3 /* KKLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		1AE4D8261476034F006016E3 /* KKLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKLibrary.h; sourceTree = "<group>"; };
 		1AE4D82714760350006016E3 /* KKLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +59,9 @@
 		1AE4D8231476034F006016E3 /* KKLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				1AE4D83414760409006016E3 /* Networking */,
+				1AE4D833147603FF006016E3 /* Grid View */,
+				1AE4D832147603F6006016E3 /* CoreText */,
 				1AE4D8261476034F006016E3 /* KKLibrary.h */,
 				1AE4D82714760350006016E3 /* KKLibrary.m */,
 				1AE4D8241476034F006016E3 /* Supporting Files */,
@@ -72,6 +75,27 @@
 				1AE4D8251476034F006016E3 /* KKLibrary-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AE4D832147603F6006016E3 /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreText;
+			sourceTree = "<group>";
+		};
+		1AE4D833147603FF006016E3 /* Grid View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Grid View";
+			sourceTree = "<group>";
+		};
+		1AE4D83414760409006016E3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,7 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = Enkla;
+				ORGANIZATIONNAME = "";
 			};
 			buildConfigurationList = 1AE4D8181476034D006016E3 /* Build configuration list for PBXProject "KKLibrary" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -227,6 +251,7 @@
 				1AE4D82D14760350006016E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
