@@ -7,12 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3D9C5A147A35B0000FBF25 /* libKKCoreTextUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5174514763A7D00EE1FEC /* libKKCoreTextUtils.a */; };
+		1A3D9C5B147A35B0000FBF25 /* libKKGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD51715147636D300EE1FEC /* libKKGridView.a */; };
+		1A3D9C5C147A35B0000FBF25 /* libKKNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5171E1476372200EE1FEC /* libKKNetworking.a */; };
 		1AE4D8221476034F006016E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE4D8211476034F006016E3 /* Foundation.framework */; };
 		1AE4D82814760350006016E3 /* KKLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4D82714760350006016E3 /* KKLibrary.m */; };
+		93741FA2C8D3471FB7856A0F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 291DFC151013484C95C59EB7 /* libPods.a */; };
 		FC11CB701478725900803DDF /* KKLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE4D8261476034F006016E3 /* KKLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1A3196C8147893EB00125456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD5173D14763A7D00EE1FEC /* KKCoreTextUtils.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD517291476398F00EE1FEC;
+			remoteInfo = KKCoreTextUtils;
+		};
+		1A3196CA147893EB00125456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD517161476372200EE1FEC /* KKNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A28BB10144F91C00051446D;
+			remoteInfo = KKNetworking;
+		};
+		1A3196CC147893EB00125456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD5170D147636D300EE1FEC /* KKGridView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A61BE0E13DCAF1F00AB4243;
+			remoteInfo = KKGridView;
+		};
 		1AD51714147636D300EE1FEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1AD5170D147636D300EE1FEC /* KKGridView.xcodeproj */;
@@ -45,6 +70,8 @@
 		1AE4D8251476034F006016E3 /* KKLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKLibrary-Prefix.pch"; sourceTree = "<group>"; };
 		1AE4D8261476034F006016E3 /* KKLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKLibrary.h; sourceTree = "<group>"; };
 		1AE4D82714760350006016E3 /* KKLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKLibrary.m; sourceTree = "<group>"; };
+		291DFC151013484C95C59EB7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB524686C649A8B37E2036 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3D9C5A147A35B0000FBF25 /* libKKCoreTextUtils.a in Frameworks */,
+				1A3D9C5B147A35B0000FBF25 /* libKKGridView.a in Frameworks */,
+				1A3D9C5C147A35B0000FBF25 /* libKKNetworking.a in Frameworks */,
 				1AE4D8221476034F006016E3 /* Foundation.framework in Frameworks */,
+				93741FA2C8D3471FB7856A0F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +120,7 @@
 				1AE4D8231476034F006016E3 /* KKLibrary */,
 				1AE4D8201476034F006016E3 /* Frameworks */,
 				1AE4D81F1476034F006016E3 /* Products */,
+				67BB524686C649A8B37E2036 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				1AE4D8211476034F006016E3 /* Foundation.framework */,
+				291DFC151013484C95C59EB7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,10 +207,14 @@
 				1AE4D81A1476034F006016E3 /* Sources */,
 				1AE4D81B1476034F006016E3 /* Frameworks */,
 				1AE4D81C1476034F006016E3 /* Headers */,
+				CA392BFD89954214807A7F66 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1A3196C9147893EB00125456 /* PBXTargetDependency */,
+				1A3196CB147893EB00125456 /* PBXTargetDependency */,
+				1A3196CD147893EB00125456 /* PBXTargetDependency */,
 			);
 			name = KKLibrary;
 			productName = KKLibrary;
@@ -248,6 +285,23 @@
 		};
 /* End PBXReferenceProxy section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CA392BFD89954214807A7F66 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1AE4D81A1476034F006016E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +312,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A3196C9147893EB00125456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KKCoreTextUtils;
+			targetProxy = 1A3196C8147893EB00125456 /* PBXContainerItemProxy */;
+		};
+		1A3196CB147893EB00125456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KKNetworking;
+			targetProxy = 1A3196CA147893EB00125456 /* PBXContainerItemProxy */;
+		};
+		1A3196CD147893EB00125456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KKGridView;
+			targetProxy = 1A3196CC147893EB00125456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1AE4D82914760350006016E3 /* Debug */ = {
@@ -308,25 +380,33 @@
 		};
 		1AE4D82C14760350006016E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BB524686C649A8B37E2036 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKLibrary/KKLibrary-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		1AE4D82D14760350006016E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BB524686C649A8B37E2036 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKLibrary/KKLibrary-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
